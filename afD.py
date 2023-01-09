@@ -455,15 +455,15 @@ class Main:
 		print(" \33[1;32m[5] 2011 ᴛo 2014 ")
 		print("\033[1;32m [E] ᴇxɪᴛ \n")
 		NOBITA =input(" \033[1;32mᴄʜᴏᴏsᴇ : ")
-		if MARWAN in ["1", "01"]:
+		if NOBITA in ["1", "01"]:
 			File()
-		if MARWAN in ["2", "02"]:
+		if NOBITA in ["2", "02"]:
 			Public()
-		if MARWAN in ["3", "03"]:
+		if NOBITA in ["3", "03"]:
 			os.system("python2 pakashi.py")
-		if MARWAN in ["4", "04"]:
+		if NOBITA in ["4", "04"]:
 			self.old()
-		if MARWAN in ["5", "05"]:
+		if NOBITA in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
