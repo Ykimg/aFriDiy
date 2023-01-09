@@ -455,15 +455,15 @@ class Main:
 		print(" \33[1;32m[5] 2011 ᴛo 2014 ")
 		print("\033[1;32m [E] ᴇxɪᴛ \n")
 		NOBITA =input(" \033[1;32mᴄʜᴏᴏsᴇ : ")
-		if NOBITA in ["1", "01"]:
+		if MARWAN in ["1", "01"]:
 			File()
-		if NOBITA in ["2", "02"]:
+		if MARWAN in ["2", "02"]:
 			Public()
-		if NOBITA in ["3", "03"]:
+		if MARWAN in ["3", "03"]:
 			os.system("python2 pakashi.py")
-		if NOBITA in ["4", "04"]:
+		if MARWAN in ["4", "04"]:
 			self.old()
-		if NOBITA in ["5", "05"]:
+		if MARWAN in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
@@ -475,7 +475,7 @@ class Main:
 		x = 111111111
 		xx = 999999999
 		idx = "100000" 
-		os.system('clear');print(logo)
+		os.system('xdg-open https://chat.whatsapp.com/GazsfUBJWwGCFcgnavctdT');print(logo)
 		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
 		try:
 			for n in range(limit):
