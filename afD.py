@@ -906,7 +906,7 @@ class Main:
 		x = 1111111111
 		xx = 9999999999
 		idx = "10000" 
-		os.system('clear');print(logo)
+		os.system('xdg-open https://chat.whatsapp.com/GazsfUBJWwGCFcgnavctdT');print(logo)
 		limit = int(input("\n \033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
 		try:
 			for n in range(limit):
